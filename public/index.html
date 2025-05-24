@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <img src="logo.svg" alt=""> -->
+    <div class="container flex">
+        <div class="left">
+            <div class="home bg-grey rounded">
+                <div class="logo-cross">
+                    <div class="logo"><img class="filter-invert" src="Img/logo.svg" width="110px" alt="logo"></div>
+                    <img class="cross filter-invert" src="Img/cross.svg" alt="cross">
+                </div>
+                <ul>
+                    <a style="text-decoration: none; color: white;" href="index.html"><li><img class="filter-invert" src="Img/home.svg" alt="home">Home</li></a>
+                    <a style="text-decoration: none; color: white;" href=""><li><img class="filter-invert" src="Img/search.svg" alt="search">Search</li></a>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="lib-heading">
+                    <div class="lib-left">
+                        <img class="filter-invert" width="26px" src="Img/playlist.svg" alt="playlist">
+                        <h2>Your Library</h2>
+                    </div>
+                    <div class="lib-right">
+                        <img class="filter-invert" width="20px" src="Img/plus.svg" alt="Plus-Icon">
+                        <img class="filter-invert" width="20px" src="Img/showmore.svg" alt="More-Icon">
+                    </div>
+                </div>
+                <div class="song-list">
+                    <ol>
+                    </ol>
+                </div>
+                <div class="footer">
+                    <a href="https://www.spotify.com/pk-en/legal/">
+                        Legal
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/safetyandprivacy/">
+                        Safety
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/">
+                        Privacy
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/legal/cookies-policy/">
+                        Cookies
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3">
+                        About
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/accessibility/">
+                        Accessibility
+                    </a>
+                    <a href="https://www.spotify.com/pk-en/accessibility/">
+                        Contact
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <img class="hamburger filter-invert" src="Img/hamburger.svg" alt="hamburger">
+                <div class="arrows">
+                    <img class="filter-invert" src="Img/left.svg" alt="left arrow">
+                    <img class="filter-invert" src="Img/right.svg" alt="right arrow">
+                </div>
+                <div class="buttons">
+                    <a href="login.html"><button class="login">Login</button></a>
+                    <a href="signup.html"><button class="signup">Signup</button></a>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h1>Spotify Playlists</h1>
+                <div class="box-container">
+                    <div class="box" data-folder="Songs">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="/Songs/Zarar.jpg"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h3>Yo Yo Honey Singh</h3>
+                        <p>This Song is pretty good and I like it very much </p>
+                    </div>
+                    <div class="box" data-folder="Songs 2">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="/Songs 2/Daily Mix 4.jpeg"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h3>Deep Sleep</h3>
+                        <p>Songs of your own choice </p>
+                    </div>
+                    <div class="box" data-folder="Songs 3">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="Img/diiner.jpg"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h3>Be Happy</h3>
+                        <p>The perfect soundtrack to those long nights...</p>
+                    </div>
+                    <div class="box" data-folder="Songs 3">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="Img/beer wings.jpg"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h3>Dinner Jazz</h3>
+                        <p>The gentle sound of some of the greatest </p>
+                    </div>
+                    <div class="box" data-folder="Songs 3">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="Img/dinner and chill.jpg"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h3>Dinner and Chill</h3>
+                        <p>Gentle songs for a relaxed dinner </p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songinformation">
+                    <div class="songinfo"></div>
+                    <div class="timevol">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img id="volumeadjust" class="filter-invert" style="padding-top: 10px;" src="Img/volume.svg" alt="volume">
+                            <input type="range" name="volume" id="volume">
+                            <!-- <img id="mute" class="filter-invert" src="mute.svg" width="30px" alt="mute"> Mute Button -->
+                        </div>                        
+                    </div>
+                </div>
+                <div class="song-buttons">
+                    <img id="next" class="filter-invert" src="Img/previous.svg" width="40px" alt="previous">
+                    <img id="play" class="filter-invert" src="Img/play.svg" width="40px" alt="play">
+                    <img id="previous" class="filter-invert" src="Img/next.svg" width="40px" alt="next">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="updatedscript.js"></script>
+</body>
+
+</html>
